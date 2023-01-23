@@ -4,11 +4,11 @@
     text-align: center;
 }
 .row {
-    display: block;
+    display: inline-block;
     margin: auto;
 }
 .horizontal-line, .divider {
-    display: flex;
+    display: inline-block;
     background-color: black;
     border: 1px solid black;
 }
@@ -23,6 +23,7 @@
     vertical-align: middle;
 }
 .tile {
+    display: inline-block;
     border: none;
     background-color: white;
     width: 80px;
