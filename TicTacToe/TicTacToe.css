@@ -1,0 +1,36 @@
+.board {
+    display: block;
+    width: 300px;
+    text-align: center;
+}
+.row {
+    display: block;
+    margin: auto;
+}
+.horizontal-line, .divider {
+    background-color: black;
+    border: 1px solid black;
+}
+.horizontal-line {
+    display: block;
+    height: 1px;
+}
+.divider {
+    display: inline-block;
+    width: 1px;
+    height: 80px;
+    vertical-align: middle;
+}
+.tile {
+    border: none;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+    font-family: Arial;
+    font-size: 50px;
+    text-align: center;
+}
+.reset, .winning-statement {
+    margin-top: 30px;
+}

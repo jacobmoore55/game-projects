@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="BlackJack.css" />
+  </head>
+  <body>
+    <div>
+      <h1>Dealer Hand</h1>
+      <div class="card-hand" id="dealer-hand"></div>
+      <div id="dealer-total"></div>
+    </div>
+    <hr />
+    <div>
+      <h1>Player Hand</h1>
+      <div class="card-hand" id="player-hand"></div>
+      <div id="player-total"></div>
+    </div>
+    <p id="chip-amount"></p>
+    <div id="bet-button">
+      <input type="number" id="bet-amount" step="100" />
+      <button onclick="checkBet(document.getElementById('bet-amount').value);">
+        Bet
+      </button>
+    </div>
+    <div id="game-message"></div>
+    <div id="game-elements"></div>
+    <script src="BlackJack.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+.card-hand {
+    height: 150px;
+    display: inline-block;
+}
+.game-elements {
+    margin-top: 100px;
+}
+.card {
+    width: 100px;
+    margin-right: 10px;
+}
+.back-card {
+    width: 112px;
+    border-radius: 6px;
+}
+.game-elements {
+    display: block;
+}
+.game-message {
+    display: block;
+}
