@@ -1,6 +1,6 @@
 .board {
     display: block;
-    width: 300px;
+    width: fit-content;
     text-align: center;
 }
 .row {
