@@ -8,6 +8,7 @@
     margin: auto;
 }
 .horizontal-line, .divider {
+    display: flex;
     background-color: black;
     border: 1px solid black;
 }
