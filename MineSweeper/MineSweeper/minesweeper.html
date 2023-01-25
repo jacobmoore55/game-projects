@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="minesweeper.css" />
+  </head>
+  <body>
+    <div id="board" oncontextmenu="return false;"></div>
+    <p class="user-buttons">
+      <button class="reset" onclick="reset();">Reset</button>
+      <button class="add-flag" onclick="addFlag = true;">Add Flag</button>
+    </p>
+    <div id="game-message" class="game-message"></div>
+    <script src="minesweeper.js"></script>
+  </body>
+</html>

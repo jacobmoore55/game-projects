@@ -1,0 +1,47 @@
+.row {
+    display: block;
+    height: 40px;
+    text-align: center;
+}
+
+.tile {
+    background-color: rgb(200, 200, 200)
+}
+
+.tile, .tile-display, .tile-mine {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+
+}
+
+.tile:hover {
+    background-color: rgb(188, 188, 188);
+}
+
+.tile:active {
+    background-color: rgb(94, 94, 94);
+}
+
+.tile-display, .tile-mine {
+    vertical-align: top;
+}
+
+.tile-mine {
+    color: red;
+}
+
+.reset {
+    margin-top: 50px;
+}
+
+.user-buttons {
+    text-align: center;
+}
+
+.game-message {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
