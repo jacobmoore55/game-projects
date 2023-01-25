@@ -1,6 +1,6 @@
 .row {
     display: block;
-    height: 40px;
+    height: 37px;
     text-align: center;
 }
 
@@ -9,8 +9,8 @@
 }
 
 .tile, .tile-display, .tile-mine {
-    width: 40px;
-    height: 40px;
+    width: 37px;
+    height: 37px;
     border: 1px solid black;
 
 }
