@@ -1,5 +1,7 @@
 .row {
     display: block;
+    height: 40px;
+    text-align: center;
 }
 
 .tile {
@@ -7,8 +9,8 @@
 }
 
 .tile, .tile-display, .tile-mine {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border: 1px solid black;
 
 }
@@ -32,3 +34,14 @@
 .reset {
     margin-top: 50px;
 }
+
+.user-buttons {
+    text-align: center;
+}
+
+.game-message {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
