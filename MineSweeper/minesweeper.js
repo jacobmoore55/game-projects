@@ -80,11 +80,16 @@ function render(board) {
                         board.tileArray[i][j].flag = false;
                     } else {
                         board.tileArray[i][j].display = true;
+                        checkEmptyTiles(board, i, j);
                     }
-                    checkEmptyTiles(board, i, j);
                     gameCheck(board);
                     render(board);
                 });
+                tileButton.addEventListener("contextmenu", function() {
+                    board.tileArray[i][j].flag = (board.tileArray[i][j].flag) ? false : true;
+                    gameCheck(board);
+                    render(board);
+                })
             }
             buttonRow.appendChild(tileButton);
         }
