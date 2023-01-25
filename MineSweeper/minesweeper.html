@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="minesweeper.css" />
   </head>
   <body>
-    <div id="board"></div>
+    <div id="board" oncontextmenu="return false;"></div>
     <p class="user-buttons">
       <button class="reset" onclick="reset();">Reset</button>
       <button class="add-flag" onclick="addFlag = true;">Add Flag</button>
     </p>
-    <div id="game-message"></div>
+    <div id="game-message" class="game-message"></div>
     <script src="minesweeper.js"></script>
   </body>
 </html>
