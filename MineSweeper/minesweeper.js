@@ -1,6 +1,6 @@
 
-let boardWidth = 5;
-let boardHeight = 5;
+let boardWidth = 10;
+let boardHeight = 10;
 let mine_freq = 7;
 let addFlag = false;
 const boardDisplay = document.getElementById('board');
