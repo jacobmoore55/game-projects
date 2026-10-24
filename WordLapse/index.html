@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f5f7fc">
+  <meta name="description" content="Find as many straight-line words as you can in 60 seconds.">
+  <title>Word Lapse — 60-Second Word Search</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="dictionary.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+<main class="shell">
+  <header class="top"><div class="eyebrow">THE 60-SECOND WORD CHALLENGE</div><h1>Word Lapse</h1><p>Eight directions. One minute. Every word counts.</p></header>
+  <section class="panel" aria-label="Word Lapse game">
+    <div class="stats"><div class="stat"><span>TIME LEFT</span><strong id="time">1:00</strong></div><div class="stat"><span>WORDS FOUND</span><strong id="count">0</strong></div><div class="stat"><span>PERSONAL BEST</span><strong id="best">0</strong></div></div>
+    <div class="bar" aria-hidden="true"><div id="progress"></div></div>
+    <div id="boardWrap" class="board-wrap">
+      <div id="board" class="board" aria-label="8 by 8 letter grid"></div>
+      <svg id="highlights" class="highlights" aria-hidden="true"></svg>
+      <div id="overlay" class="overlay"><h2 id="overlayTitle">Ready to play?</h2><p id="overlayText">Drag from the first letter to the last in a straight line. Words of 2–8 letters count, including backwards and diagonally.</p><div id="endScore" class="big" hidden></div><div id="endDetails" class="end-details" hidden></div><button id="play" class="btn" type="button" disabled>Loading dictionary…</button></div>
+    </div>
+    <div id="current" class="current" aria-live="off"></div>
+    <p id="message" class="message" aria-live="polite">Loading word list…</p>
+    <div class="controls"><button id="restart" class="btn secondary" type="button" disabled>New round</button></div>
+    <div class="subheading"><h2>Words found</h2><span id="total">0 unique words</span></div>
+    <div id="words" class="words" aria-label="Words found this round"></div>
+  </section>
+  <p class="foot">Words count once per round, even when they appear in multiple places.<br>High scores are saved only in this browser.</p>
+</main>
+</body>
+</html>
